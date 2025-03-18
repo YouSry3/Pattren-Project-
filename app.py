@@ -1,9 +1,9 @@
 import pickle
 from flask import Flask, request, jsonify, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="Styles", static_url_path="/static")
 
-# ✅ تحميل النموذج و الـ Vectorizer
+# ✅ تحميل النموذج والـ Vectorizer
 with open("vectorizer.pkl", "rb") as v_file:
     vectorizer = pickle.load(v_file)
 
@@ -31,4 +31,4 @@ def predict():
     return jsonify({"prediction": "Spam" if prediction == 1 else "Ham"})
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
