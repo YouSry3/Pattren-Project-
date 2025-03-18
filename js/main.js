@@ -12,9 +12,9 @@ function sendMessage() {
       
     
       if (result === "Ham") {  
-          document.getElementById("result").innerText = "Prediction: " + result + " ✅ this Real Message";
+          document.getElementById("result").innerText = `Prediction: " + ${result} + " ✅ this Real Message`;
       } else if (result === "Spam") { 
-          document.getElementById("result").innerText = "Prediction: " + result + " 🚨 this fuck Message";
+          document.getElementById("result").innerText = `Prediction: " + ${result} + " 🚨 this fuck Message`;
       } else {
           document.getElementById("result").innerText = "Prediction: Unknown";  
       }
