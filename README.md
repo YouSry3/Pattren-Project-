@@ -55,5 +55,6 @@ If you want to contribute to the project, you can:
 ---
 
 🎯 **Developer:** [Mohamed Sherif](https://github.com/mohamedsherif301)  
-📅 **Last Update:** `March 2025`
+📅 **Last Update:** `March 2025`  
+📧 **Email:** myore122@gmail.com
 
