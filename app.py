@@ -1,7 +1,7 @@
 import pickle
 from flask import Flask, request, jsonify, render_template
 
-app = Flask(__name__, static_folder="Styles", static_url_path="/static")
+app = Flask(__name__, static_folder="static", static_url_path="/static")
 
 # ✅ تحميل النموذج والـ Vectorizer
 with open("vectorizer.pkl", "rb") as v_file:
