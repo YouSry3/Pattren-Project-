@@ -1,5 +1,17 @@
 # 📌 How to Run the Project After Cloning
 
+## ✅ Example of a "Ham" (Legitimate) Message  
+A **Ham message** is a normal, non-spam message. The model correctly identifies it as a legitimate message.  
+
+<img src="https://github.com/mohamedsherif301/Pattren-Project-/raw/main/Imgs/HamMessage.png" width="500"/>
+
+---
+
+## 🚨 Example of a "Spam" Message  
+A **Spam message** is an unwanted or fraudulent message. The model detects and classifies it as **Spam**.  
+
+<img src="https://github.com/mohamedsherif301/Pattren-Project-/raw/main/Imgs/SpamMessage.png" width="500"/>
+
 After cloning the project, you need to install the required libraries and run the server. Follow these steps:
 
 ---
